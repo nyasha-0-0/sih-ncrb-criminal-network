@@ -1,4 +1,7 @@
 # APEX DOSSIER (Dataset)
+---
+
+**PROJECT LINK**: [APEX DOSSIER](https://github.com/ankitadasdk/sih)
 
 ---
 
@@ -317,6 +320,7 @@ The generative boundaries, anomaly thresholds, and legal outcomes for this datas
 7. **Syed Farheen Begum vs The State Of Telangana (W.P. No.26624 of 2019, High Court of Telangana)**
    - *Domain*: Preventive Detention, Robbery/Snatching & Law & Order vs. Public Order
    - *Key Precedent*: Established a clear legal distinction between general "law and order" and "public order" in cases involving serial snatching and robbery (IPC 379, 392, 411). The High Court ruled that while multiple street thefts may disturb local law and order, they do not inherently subvert the broader "public order" required to justify draconian preventive detention acts (like the PD Act). This ruling directly informs the dataset's `label_public_order_vs_law_and_order` boundaries and the application of bail/custody relief parameters when ordinary criminal law is deemed sufficient.  
+
 
 
 
