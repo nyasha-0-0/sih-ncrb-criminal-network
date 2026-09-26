@@ -248,7 +248,7 @@ graph TD
 - `CO_LOCATED` (Weight: $0.75$)
 
 ### Example Graph Path:
-`Ghost_Kingpin_01` $\xrightarrow{\text{INSTRUCTS}}$ `Tech_Operator_03` $\xrightarrow{\text{OPERATES}}$ `SIM_Box_99` $\xrightarrow{\text{ROUTED_FUNDS (<8m)}}$ `Mule_Account_404` ($\text{KingpinScore} = 0.725$).
+`Ghost_Kingpin_01` ➔ `[INSTRUCTS]` ➔ `Tech_Operator_03` ➔ `[OPERATES]` ➔ `SIM_Box_99` ➔ `[ROUTED_FUNDS (<8m)]` ➔ `Mule_Account_404 (KingpinScore = 0.725)`
 
 ---
 
