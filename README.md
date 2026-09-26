@@ -293,7 +293,7 @@ graph TD
 ## N. DATASET ORIGINS & REFERENCE CASES
 ### Parameters Source
 The dataset parameters were carefully synthesized from modern Indian Cyber Crime frameworks, physical and digital investigative telemetry, and statutory requirements mapping directly to the **Bharatiya Nyaya Sanhita (BNS)**, **Bharatiya Sakshya Adhiniyam (BSA, 2023)**, the **Indian Penal Code (IPC)**, and the **Information Technology (IT) Act, 2000**.  
-**Source Document / Parameters Link:** `[https://indiankanoon.org]` `[https://hcservices.ecourts.gov.in/hcservices/main.php#]`
+**Source Document / Parameters Link:** `https://indiankanoon.org` `https://hcservices.ecourts.gov.in/hcservices/main.php#`
 ### Canonical Cases in Reference
 The generative boundaries, anomaly thresholds, and legal outcomes for this dataset were directly modeled upon the following 5 canonical Indian judicial precedents:
 1. **Smt. Muvva Sri Vani v. State of Telangana**
@@ -308,7 +308,17 @@ The generative boundaries, anomaly thresholds, and legal outcomes for this datas
 4. **Manjeet Walia v. State of Haryana**
    - *Domain*: Internet Banking Hack & Mule Accounts
    - *Key Precedent*: Demonstrated that possessing frozen accounts with unreported suspicious credits and multi-FIR involvement results in the strict denial of bail.
-5. **State v. Rohit / Buddhu & Md. Baby Farida**
+5. **State of Telangana v. Md. Baby Farida**
    - *Domain*: Physical Theft & Identification Parade Failure
    - *Key Precedent*: Confirmed that concealment (e.g., helmets) causing a Test Identification Parade (TIP) failure creates reasonable doubt, serving as a primary driver for acquittal outcomes.
+6. **State vs Buddhu , Bitto , Bhoori , Monu & Anr (E-FIR No. 494/19 PS Keshav Puram)**
+   - *Domain*: Physical Theft, Snatching & Identification Parade Failure
+   - *Key Precedent*: Confirmed that concealment of identity (e.g., perpetrators wearing helmets) causing a failure by the eyewitness to identify the accused creates an insurmountable "reasonable doubt" identity gap. In this case, the inability of the complainant to identify the accused led to a failure in the Test Identification Parade (TIP), serving as the primary mathematical driver for our acquittal outcome predictions under IPC Sections 356/34 and 379.
+7. **Syed Farheen Begum vs The State Of Telangana (W.P. No.26624 of 2019, High Court of Telangana)**
+   - *Domain*: Preventive Detention, Robbery/Snatching & Law & Order vs. Public Order
+   - *Key Precedent*: Established a clear legal distinction between general "law and order" and "public order" in cases involving serial snatching and robbery (IPC 379, 392, 411). The High Court ruled that while multiple street thefts may disturb local law and order, they do not inherently subvert the broader "public order" required to justify draconian preventive detention acts (like the PD Act). This ruling directly informs the dataset's `label_public_order_vs_law_and_order` boundaries and the application of bail/custody relief parameters when ordinary criminal law is deemed sufficient.
+
+
+
+
 
