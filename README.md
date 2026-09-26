@@ -293,7 +293,7 @@ graph TD
 ## N. DATASET ORIGINS & REFERENCE CASES
 ### Parameters Source
 The dataset parameters were carefully synthesized from modern Indian Cyber Crime frameworks, physical and digital investigative telemetry, and statutory requirements mapping directly to the **Bharatiya Nyaya Sanhita (BNS)**, **Bharatiya Sakshya Adhiniyam (BSA, 2023)**, the **Indian Penal Code (IPC)**, and the **Information Technology (IT) Act, 2000**.  
-**Source Document / Parameters Link:** `https://indiankanoon.org` `https://hcservices.ecourts.gov.in/hcservices/main.php#`
+**Source Repositories:** [Indian Kanoon](https://indiankanoon.org) | [eCourts High Court Services](https://hcservices.ecourts.gov.in/hcservices/main.php#)
 ### Canonical Cases in Reference
 The generative boundaries, anomaly thresholds, and legal outcomes for this dataset were directly modeled upon the following 5 canonical Indian judicial precedents:
 1. **Smt. Muvva Sri Vani v. State of Telangana**
