@@ -289,3 +289,26 @@ graph TD
 3. **Data Feed Expansion**: Integrating live Telecom CDR feeds and Financial Intelligence Unit (FIU-IND) STR logs will further boost real-time detection.
 
 ---
+
+## N. DATASET ORIGINS & REFERENCE CASES
+### Parameters Source
+The dataset parameters were carefully synthesized from modern Indian Cyber Crime frameworks, physical and digital investigative telemetry, and statutory requirements mapping directly to the **Bharatiya Nyaya Sanhita (BNS)**, **Bharatiya Sakshya Adhiniyam (BSA, 2023)**, the **Indian Penal Code (IPC)**, and the **Information Technology (IT) Act, 2000**.  
+**Source Document / Parameters Link:** `[https://indiankanoon.org]` `[https://hcservices.ecourts.gov.in/hcservices/main.php#]`
+### Canonical Cases in Reference
+The generative boundaries, anomaly thresholds, and legal outcomes for this dataset were directly modeled upon the following 5 canonical Indian judicial precedents:
+1. **Smt. Muvva Sri Vani v. State of Telangana**
+   - *Domain*: ATM User Distraction & Social Engineering
+   - *Key Precedent*: Distinguished offenses against an individual (Law & Order) from those affecting community panic (Public Order), resulting in the quashing of preventive detention for minor ATM thefts.
+2. **Deepak Choudary v. State of Telangana**
+   - *Domain*: Fake Call Center, Vishing & Credential Phishing
+   - *Key Precedent*: Highlighted infrastructural markers (payment gateways, floor operations) required to establish cyber syndicates.
+3. **Naushad Abdul Manan Khan v. State of Chhattisgarh**
+   - *Domain*: Telecom Syndicate, Parallel VoIP Exchange & Bulk SIM Fraud
+   - *Key Precedent*: Established that custody exceeding 150 days with a filed chargesheet entitles the accused to statutory bail, forming the mathematical boundary for our custody relief predictions.
+4. **Manjeet Walia v. State of Haryana**
+   - *Domain*: Internet Banking Hack & Mule Accounts
+   - *Key Precedent*: Demonstrated that possessing frozen accounts with unreported suspicious credits and multi-FIR involvement results in the strict denial of bail.
+5. **State v. Rohit / Buddhu & Md. Baby Farida**
+   - *Domain*: Physical Theft & Identification Parade Failure
+   - *Key Precedent*: Confirmed that concealment (e.g., helmets) causing a Test Identification Parade (TIP) failure creates reasonable doubt, serving as a primary driver for acquittal outcomes.
+
